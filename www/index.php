@@ -2,8 +2,8 @@
 declare(strict_types=1);
 
 // Настройка отображения ошибок (включайте только в разработке)
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
  
 // Установка заголовков для безопасности и поддержки контента
