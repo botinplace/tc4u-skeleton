@@ -2,14 +2,14 @@
 return [
 [
         'id' => 1,  
-        'method' => 'POST',
+        'method' => 'GET',
         'path' => '/',
 		'page_hidden'=>false,
 		'page_title'=>'Заголовок',
 		'page_title_spare'=>'Альтернативный Заголовок',
 		'page_meta_keywords'=> null,
         'page_meta_description'=> null,
-        'controller' => [MainApp\Controllers\IndexController::class, 'indexPost'],
+        'controller' => [MainApp\Controllers\IndexController::class, 'index'],
         'basetemplate' => null,
 		'contentfile'=>null,
         'parent_id_page' => null,
