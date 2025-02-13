@@ -1,0 +1,71 @@
+# Стандартные директории
+/vendor/
+bin/
+etc/
+log/
+tmp/
+
+# Результаты компиляции
+*.o
+*.so
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+
+# Конфигурационные файлы
+.env
+*.local
+*.tmp
+
+# PHP
+*.log
+*.cache
+*.session
+
+# Временные файлы и каталоги
+*.bak
+*.orig
+*.old
+*.save
+*.directory
+-*
+
+# Папка Composer
+composer.lock
+
+# IDEs и редакторы
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+*.nbproject/
+*.orig
+
+# PHPStorm
+/.idea/
+*.iml
+
+# PHPUnit
+phpunit.xml
+phpunit.xml.dist
+
+# Документы и временные файлы
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+
+# Логи
+*.log
+logs/
+
+# Системные временные файлы
+tmp/
+temp/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.docker/
