@@ -23,6 +23,9 @@ define( 'AD_SERVER_IP2', '255.255.255.255' );
 define( 'AD_DOMAIN', 'domain1' );
 define( 'AD_DOMAIN2', 'domain2' );
 
+// Доступные методы
+define( 'ALLOWED_METHODS', 'GET,POST,PUT,DELETE,OPTION,HEAD' );
+
 // Страница авторизации (если пользователь не авторизован)
 define('AUTH_PATH','/auth');
 
