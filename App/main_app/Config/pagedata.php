@@ -1,3 +1,4 @@
+<?php
 // pagedata.php
 return [
     'home'=>[
