@@ -58,5 +58,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 // Инициализация приложения
 use Core\Application;
+use Core\ErrorLogger;
 
+$logger = new ErrorLogger(APP.'Logs/log', 1000);
 $app = new Application();
