@@ -62,3 +62,4 @@ use Core\ErrorLogger;
 
 $logger = new ErrorLogger(APP.'Logs/log', 1000);
 $app = new Application();
+$app->run();
